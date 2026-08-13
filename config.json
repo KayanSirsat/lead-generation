@@ -1,0 +1,15 @@
+{
+  "client_name": "Ahmedabad_Agency",
+  "target_icp": {
+    "target_roles": ["CTO", "VP of Engineering", "Head of Product", "Founder"],
+    "locations": ["United States", "United Kingdom", "Canada"],
+    "company_size": ["11-50", "51-200"],
+    "trigger_note": "Hiring for React/Node or raise Seed/Series A"
+  },
+  "max_leads": 10,
+  "ouput_format": "csv",
+  "include_undeliverable": false,
+  "min_confidence_source": 0,
+  "apollo_page_size": 25,
+  "request_delay_seconds": 1.2
+}
