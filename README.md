@@ -146,7 +146,7 @@ HUNTER_API_KEY=your_hunter_api_key_here
 
 ```json
 {
-  "client_name": "Ahmedabad_Tech_Agency",
+  "client_name": "Ahmedabad_Agency",
   "target_icp": {
     "target_roles": ["CTO", "VP of Engineering", "Head of Product", "Founder"],
     "locations": ["United States", "United Kingdom", "Canada"],
@@ -195,7 +195,7 @@ python main.py --config clients/acme_config.json --env .env
 Sample console output:
 
 ```
-[INFO] Starting pipeline for client: Ahmedabad_Tech_Agency
+[INFO] Starting pipeline for client: Ahmedabad_Agency
 [INFO] ICP -> roles=['CTO', 'Founder'] | locations=['United States'] | company_size=['11-50'] | max_leads=10
 [INFO] Querying Apollo mixed_people/api_search (page 1)...
 [INFO] Apollo returned 10 raw lead(s).
