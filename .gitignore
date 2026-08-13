@@ -1,0 +1,16 @@
+# Environment & Secrets
+.env
+*.env
+
+# Output Files & Scraped Data
+*.csv
+*.json
+
+# Python Virtual Environment & Caches
+.venv/
+.env/
+__pycache__/
+*.pyc
+
+# OS Files
+.DS_Store
