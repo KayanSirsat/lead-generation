@@ -112,8 +112,8 @@ Running the pipeline produces additional (git-ignored) output files:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/KayanSirsat/lead-generation.git
+cd lead-generation
 
 # 2. (Recommended) create a virtual environment
 python3 -m venv venv
