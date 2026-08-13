@@ -83,11 +83,11 @@ config.json (ICP)                 .env (API keys)
 
 ```
 .
-├── main.py             # Entire pipeline: config loading, API clients, orchestration, export
+├── main.py              # Entire pipeline: config loading, API clients, orchestration, export
 ├── config.json          # ICP / run parameters (safe to commit — no secrets)
 ├── .env.example         # Template for required API keys (copy to .env, do NOT commit .env)
-├── requirements.txt      # Python dependencies
-└── README.md             # This file
+├── requirements.txt     # Python dependencies
+└── README.md            # This file
 ```
 
 Running the pipeline produces additional (git-ignored) output files:
