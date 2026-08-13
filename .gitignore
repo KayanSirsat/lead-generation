@@ -1,16 +1,18 @@
-# Environment & Secrets
+# Secrets
 .env
-*.env
 
-# Output Files & Scraped Data
-*.csv
-*.json
+# Generated lead exports
+*_leads_*.csv
+*_leads_*.json
 
-# Python Virtual Environment & Caches
-.venv/
-.env/
+# Python
 __pycache__/
 *.pyc
+venv/
+.venv/
+*.egg-info/
 
-# OS Files
+# OS/editor cruft
 .DS_Store
+.idea/
+.vscode/
