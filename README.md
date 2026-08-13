@@ -33,29 +33,29 @@ Built for RevOps / growth teams who need repeatable, ICP-targeted lead lists wit
 config.json (ICP)                 .env (API keys)
       │                                 │
       └───────────────┬─────────────────┘
-                       ▼
-              ┌─────────────────┐
-              │  Apollo.io API  │  →  raw leads matching role / location / company size
-              └────────┬────────┘
-                       ▼
-        For each lead: does Apollo have an email?
-              ┌────────┴────────┐
-             YES                NO
-              │                  │
-              ▼                  ▼
+                      ▼
+             ┌─────────────────┐
+             │  Apollo.io API  │  →  raw leads matching role / location / company size
+             └────────┬────────┘
+                      ▼
+      For each lead: does Apollo have an email?
+             ┌────────┴────────┐
+            YES                NO
+             │                  │
+             ▼                  ▼
      Hunter.io Verifier   Hunter.io Email Finder
      (deliverability      (first_name + last_name
-      + confidence score)  + domain → candidate email)
-              │                  │
-              │                  ▼
-              │          Hunter.io Verifier
-              │          (verify the found email)
-              └────────┬─────────┘
-                       ▼
+     + confidence score)  + domain → candidate email)
+             │                  │
+             │                  ▼
+             │          Hunter.io Verifier
+             │          (verify the found email)
+             └────────┬─────────┘
+                      ▼
               Normalize into pandas DataFrame
-                       ▼
+                      ▼
         Filter out "undeliverable" (configurable)
-                       ▼
+                      ▼
       {client_name}_leads_{timestamp}.csv
 ```
 
